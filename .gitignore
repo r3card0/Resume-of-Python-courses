@@ -1,3 +1,6 @@
 .DS_Store/
 venv_r/
 images/
+Doc/
+Text-Files/
+__pycache__/
