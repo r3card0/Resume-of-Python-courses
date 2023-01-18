@@ -1,7 +1,6 @@
 # Metodos usados en Listas 🐍
 
 ## append
-
 Método usado para insertar elementos  a una lista. El elemento insertado ocupa la última posición de la lista
 
 ```
@@ -13,6 +12,14 @@ Método para insertar elementos a una lista. Este método permite establecer la 
 ```
 lista.insert(int,elemento)
 ```
+
+## extend
+Método usado para insertar un iterable lista, set o tupla en la lista. Estos elementos se posicionarán al final de la lista.
+```
+lista.extend(iterable)
+```
+
+
 ## pop
 Método para remover un elemento de una lista, indicando la posición del elemento
 ```
