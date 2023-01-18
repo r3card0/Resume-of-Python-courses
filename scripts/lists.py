@@ -9,6 +9,8 @@ def description():
 
 tectonic_plates = []
 
+plates = ['Australian-Indian plate','Scotia plate','Antartic plate']
+
 # function to add an element in a list : append
 def addElement(list:list,string:str):
     list.append(string)
@@ -17,6 +19,11 @@ def addElement(list:list,string:str):
 # function to add an element in a list : insert
 def insertElement(list:list,string,pos:int):
     list.insert(pos,string)
+    return list
+
+# function to add in iterable in a list
+def addIterable(list:list,iterable):
+    list.extend(iterable)
     return list
 
 # function to remove an element: pop
@@ -35,8 +42,9 @@ def run():
     print(addElement(tectonic_plates, 'Eurasian plate'))
     print(insertElement(tectonic_plates,'Philipine plate',1))
     print(removeElement(tectonic_plates,2))
-    print(insertElement(tectonic_plates,['Nazca plate','South-American plate'],0))
+    print(insertElement(tectonic_plates,'South-American plate',0))
     print(removeElementRemove(tectonic_plates,'North-American plate'))
+    print(addIterable(tectonic_plates,plates))
 
 
 if __name__ == "__main__":
