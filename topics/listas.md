@@ -31,3 +31,23 @@ Método usado para remover un elemento de una lista, dando como parámetro el va
 ```
 lista.remove('apple')
 ```
+
+## sort | reverse
+El método sort se usa para ordenar una lista. En listas de texto, ordena por la primera letra del abecedario y los ordena en orden alfabético. Es CASE SENSITIVE, lo que quiere decir que le da prioridad a los texto que empiezan con mayúsculas. En numeros, los ordena del menor al mayor.
+```
+lista.sort()
+```
+
+Cuando la lista tiene una mezcla de tipos de datos, esta no se puede ordenar
+```
+TypeError: '<' not supported between instances of 'int' and 'str'
+```
+El método reverse se usa para cambiar el orden de la lista. Lo interesante es que solo ordena de forma inversa el orden inicial de la lista
+```
+numeric = [3,5,8,12,0,56,34,1] # orden inicial
+numeric.reverse()
+
+# output
+[1, 34, 56, 0, 12, 8, 5, 3]
+```
+Si se requiere que una lista numérica se ordene del número mayor al menor, primero se debe usar el método *sort()*, para ordenar los valores numéricos del menor a mayor y después ordenarlo de forma inversa con el método *reverse()*
