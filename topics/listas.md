@@ -51,3 +51,9 @@ numeric.reverse()
 [1, 34, 56, 0, 12, 8, 5, 3]
 ```
 Si se requiere que una lista numérica se ordene del número mayor al menor, primero se debe usar el método *sort()*, para ordenar los valores numéricos del menor a mayor y después ordenarlo de forma inversa con el método *reverse()*
+
+## copy
+El método copy, permite copiar la lista en una nueva variable
+```
+new_list = list.copy()
+```
