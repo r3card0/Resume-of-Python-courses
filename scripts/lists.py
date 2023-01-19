@@ -48,6 +48,11 @@ def sortReverseList(list):
     list.reverse()
     return list
 
+# function to copy a list: copy
+def copyList(list):
+    new_list = list.copy()
+    return new_list
+
 def run():
     print(description())
     print(addElement(tectonic_plates, 'North-American plate'))
@@ -63,6 +68,7 @@ def run():
     print(sortReverseList(numeric))
     print(sortList(numeric))
     print(sortReverseList(numeric))
+    print(copyList(plates))
 
 
 if __name__ == "__main__":
