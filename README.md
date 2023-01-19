@@ -30,7 +30,7 @@
 - Debugging
 - Excepciones √
 - Assert statements √
-- Trabajar con archivos √
+- [ ] [Archivos de texto](https://github.com/r3card0/Resume-of-Python-courses/blob/main/topics/listas.md#manejo-de-archivos-de-texto-)
 
 ## Profesional
 
