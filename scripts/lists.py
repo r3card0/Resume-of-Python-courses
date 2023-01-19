@@ -53,6 +53,11 @@ def copyList(list):
     new_list = list.copy()
     return new_list
 
+# function to count an element: count
+def countElement(list:list, e): # e means an element
+    x = list.count(e)
+    return x
+
 def run():
     print(description())
     print(addElement(tectonic_plates, 'North-American plate'))
@@ -69,6 +74,8 @@ def run():
     print(sortList(numeric))
     print(sortReverseList(numeric))
     print(copyList(plates))
+    addIterable(plates,plates)
+    print(countElement(plates,'Australian-Indian plate'))
 
 
 if __name__ == "__main__":
