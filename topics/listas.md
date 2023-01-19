@@ -64,3 +64,10 @@ El método count retorna el numero de veces que un elemento está presente en un
 list.count(e)
 ```
 The *e* represents an element
+
+## index
+El método index retorna la posición de un elemento
+```
+list.index(e)
+```
+La letra *e* representa al elemento dado
