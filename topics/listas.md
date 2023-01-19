@@ -71,3 +71,31 @@ El método index retorna la posición de un elemento
 list.index(e)
 ```
 La letra *e* representa al elemento dado
+
+# Manejo de archivos de texto 🗒
+
+## with
+El comando with es un manejador contextual que ayuda a proteger los arhivos consultados si el sistema falla y cierra inesperadamente. 
+
+## open()
+
+Open es una función que se encarga de abrir archivos y puede recibir varios parámetros. Como mínimo debe recibir 2: 
+
+1. Ruta del archivo
+2. Modo de apertura
+
+### open("ruta/del/archivo","modo de apertura") 
+
+## Sintaxis
+
+1. with -> para 
+2. open() -> dos parámetros como mínimo: ruta del archivo, modo de apertura
+3. as -> asignar el archivo a una variable
+4. variable
+5. ":" -> terminar con ":"
+
+    ### with open("ruta/del/archivo", "r") as f:
+
+```
+with open("ruta del archivo","modo de apertura->r,w,a") as f:
+```
