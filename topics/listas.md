@@ -57,3 +57,10 @@ El método copy, permite copiar la lista en una nueva variable
 ```
 new_list = list.copy()
 ```
+## count
+El método count retorna el numero de veces que un elemento está presente en una lista
+
+```
+list.count(e)
+```
+The *e* represents an element
