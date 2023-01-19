@@ -11,6 +11,8 @@ tectonic_plates = []
 
 plates = ['Australian-Indian plate','Scotia plate','Antartic plate']
 
+numeric = [3,5,8,12,0,56,34,1]
+
 # function to add an element in a list : append
 def addElement(list:list,string:str):
     list.append(string)
@@ -36,6 +38,16 @@ def removeElementRemove(list:list,string):
     list.remove(string)
     return list
 
+# function to sort elements of a list: sort
+def sortList(list):
+    list.sort()
+    return list
+
+# function to sort elements of a list in reverse order: reverse
+def sortReverseList(list):
+    list.reverse()
+    return list
+
 def run():
     print(description())
     print(addElement(tectonic_plates, 'North-American plate'))
@@ -45,6 +57,12 @@ def run():
     print(insertElement(tectonic_plates,'South-American plate',0))
     print(removeElementRemove(tectonic_plates,'North-American plate'))
     print(addIterable(tectonic_plates,plates))
+    print(sortList(tectonic_plates))
+    print(addIterable(tectonic_plates,numeric))
+    # print(sortList(tectonic_plates)) # TypeError: '<' not supported between instances of 'int' and 'str'
+    print(sortReverseList(numeric))
+    print(sortList(numeric))
+    print(sortReverseList(numeric))
 
 
 if __name__ == "__main__":
