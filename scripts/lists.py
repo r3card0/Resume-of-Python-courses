@@ -58,6 +58,11 @@ def countElement(list:list, e): # e means an element
     x = list.count(e)
     return x
 
+# function to show the position of an element: index
+def showPosition(list:list,e):
+    y = list.index(e)
+    return y
+
 def run():
     print(description())
     print(addElement(tectonic_plates, 'North-American plate'))
@@ -76,6 +81,7 @@ def run():
     print(copyList(plates))
     addIterable(plates,plates)
     print(countElement(plates,'Australian-Indian plate'))
+    print(showPosition(plates,'Australian-Indian plate'))
 
 
 if __name__ == "__main__":
