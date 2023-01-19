@@ -6,6 +6,7 @@ Método usado para insertar elementos  a una lista. El elemento insertado ocupa 
 ```
 lista.append(element)
 ```
+[Basic Logs](https://github.com/r3card0/Resume-of-Python-courses/blob/main/scripts/basicLogList.py)
 
 ## insert
 Método para insertar elementos a una lista. Este método permite establecer la posicion del elemento 
@@ -13,12 +14,14 @@ Método para insertar elementos a una lista. Este método permite establecer la 
 lista.insert(int,elemento)
 ```
 
+[Basic Logs](https://github.com/r3card0/Resume-of-Python-courses/blob/main/scripts/basicLogList.py)
+
 ## extend
 Método usado para insertar un iterable lista, set o tupla en la lista. Estos elementos se posicionarán al final de la lista.
 ```
 lista.extend(iterable)
 ```
-
+[Basic Logs](https://github.com/r3card0/Resume-of-Python-courses/blob/main/scripts/basicLogList.py)
 
 ## pop
 Método para remover un elemento de una lista, indicando la posición del elemento
